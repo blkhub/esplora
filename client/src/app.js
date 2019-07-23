@@ -90,8 +90,8 @@ export default function main({ DOM, HTTP, route, storage, scanner: scan$, search
   , t$ = lang$.map(lang => l10n[lang] || l10n[defaultLang])
 
   // Active theme
-  , theme$ = storage.local.getItem('theme').first().map(theme => theme || 'dark')
-      .concat(togTheme$).scan(curr => curr == 'dark' ? 'light' : 'dark')
+  , theme$ = storage.local.getItem('theme').first().map(theme => theme || 'light')
+      .concat(togTheme$).scan(curr => curr == 'light' ? 'dark' : 'light')
 
   // Scanner state (on/off)
   , scanning$ = O.merge(
