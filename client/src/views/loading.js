@@ -5,7 +5,7 @@ export default ({ t, ...S }) => layout(<div>
   <div className="jumbotron jumbotron-fluid loading-delay">
     <div className="container text-center">
       <h2>{t`Loading...`}</h2>
-      <img src="img/Loading.gif" />
+      <img src="img/Loading.svg" />
     </div>
   </div>
 </div>, { t, ...S })
