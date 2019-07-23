@@ -634,7 +634,7 @@ body > .container, .navbar > .container, .jumbotron-fluid > .container, .content
 }
 
 .highlighted-text {
-  color: #00ccff !important;
+  color: #0056b3 !important;
 }
 
 .newer-older-blocks-btns {
@@ -668,7 +668,7 @@ body > .container, .navbar > .container, .jumbotron-fluid > .container, .content
   font-weight: 400;
   width: 140px !important;
   height: 40px;
-  border: 1px solid #00ccff;
+  border: 1px solid #0056b3;
   border-radius: 5px;
   background-color: #22242c;
 }
@@ -911,7 +911,7 @@ body > .container, .navbar > .container, .jumbotron-fluid > .container, .content
 }
 
 .transaction-box > .ins-and-outs > .vins > div:not(.vin-loading).peg-out, .transaction-box > .ins-and-outs > .vins > div:not(.vin-loading).peg-in, .transaction-box > .ins-and-outs .vouts > div:not(.vin-loading).peg-out, .transaction-box > .ins-and-outs .vouts > div:not(.vin-loading).peg-in {
-  border-color: #00ccff;
+  border-color: #0056b3;
 }
 
 .transaction-box > .ins-and-outs > .vins > div:not(.vin-loading) > .vin-header, .transaction-box > .ins-and-outs > .vins > div:not(.vin-loading) .vout-header, .transaction-box > .ins-and-outs .vouts > div:not(.vin-loading) > .vin-header, .transaction-box > .ins-and-outs .vouts > div:not(.vin-loading) .vout-header {
@@ -1204,7 +1204,7 @@ img.footer_container_content_onion-links_icon {
   font-weight: 400;
   width: 140px !important;
   height: 40px;
-  border: 1px solid #00ccff;
+  border: 1px solid #0056b3;
   border-radius: 5px;
   background-color: #22242c;
   display: inline-table;
