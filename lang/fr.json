@@ -11,6 +11,13 @@
     "Dans la chaîne la plus longue (%0 confirmations)"
   ],
   "Included in Block": "Incluse dans le bloc",
+  "Block height": "Numéro du bloc",
+  "Block timestamp": "Date du bloc",
+  "Size": "Taille",
+  "Virtual size": "Taille virtuelle",
+  "Weight units": "Poids (WU)",
+  "SegWit fee savings": "Economie avec SegWit",
+  "Privacy analysis": "Analyse de la confidentialité",
   "lang_id": "fr",
   "lang_name": "Français",
   "Loading...": "Chargement...",
