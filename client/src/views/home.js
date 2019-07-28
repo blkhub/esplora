@@ -53,7 +53,7 @@ export const recentBlocks = ({ t, blocks, loading, ...S }) => homeLayout(
       { <div className="load-more-container">
         <div>
         { loading
-        ? <div className="load-more disabled"><span>{t`Load more`}</span><div><img src="img/Loading.gif" /></div></div>
+        ? <div className="load-more disabled"><span>{t`Load more`}</span><div><img src="img/Loading.svg" /></div></div>
         : pagingNav({ ...S, t }) }
         </div>
       </div> }
@@ -85,7 +85,7 @@ const pagingNav = ({nextBlocks, prevBlocks, t }) =>
 
 export const recentTxs = ({ mempoolRecent, t, ...S }) => homeLayout(
   <div className="container">
-    { !mempoolRecent ? <img src="img/Loading.gif" className="loading-delay" />
+    { !mempoolRecent ? <img src="img/Loading.svg" className="loading-delay" />
     : !mempoolRecent.length ? <p>{t`No recent transactions`}</p>
     : <div className="transactions-table">
           <div className="transactions-table-row header">

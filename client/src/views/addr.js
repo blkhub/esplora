@@ -98,12 +98,12 @@ export default ({ t, addr, addrTxs, goAddr, openTx, spends, tipHeight, loading, 
           <div className="transactions">
             <h3>{txsShownText(total_txs, est_prev_total_seen_count, shown_txs, t)}</h3>
             { addrTxs ? addrTxs.map(tx => txBox(tx, { openTx, tipHeight, t, spends, ...S }))
-                       : <img src="img/Loading.gif" className="loading-delay" /> }
+                       : <img src="img/Loading.svg" className="loading-delay" /> }
           </div>
 
           <div className="load-more-container">
             <div>
-              { loading ? <div className="load-more disabled"><span>{t`Load more`}</span><div><img src="img/Loading.gif" /></div></div>
+              { loading ? <div className="load-more disabled"><span>{t`Load more`}</span><div><img src="img/Loading.svg" /></div></div>
                         : pagingNav(addr, last_seen_txid, est_curr_chain_seen_count, prev_paging_txids, next_paging_txids, prev_paging_est_count, t) }
             </div>
           </div>

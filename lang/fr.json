@@ -7,10 +7,17 @@
   "Details": "Détails",
   "Height": "Hauteur",
   "In best chain (%s confirmations)": [
-    "Dans la chaine la plus longue (1 confirmation)",
-    "Dans la chaine la plus longue (%0 confirmations)"
+    "Dans la chaîne la plus longue (1 confirmation)",
+    "Dans la chaîne la plus longue (%0 confirmations)"
   ],
-  "Included in Block": "Inclue dans le bloc",
+  "Included in Block": "Incluse dans le bloc",
+  "Block height": "Numéro du bloc",
+  "Block timestamp": "Date du bloc",
+  "Size": "Taille",
+  "Virtual size": "Taille virtuelle",
+  "Weight units": "Poids (WU)",
+  "SegWit fee savings": "Economie avec SegWit",
+  "Privacy analysis": "Analyse de la confidentialité",
   "lang_id": "fr",
   "lang_name": "Français",
   "Loading...": "Chargement...",
@@ -26,7 +33,7 @@
   "Search for block height, hash, transaction, or address": "Numéro de bloc, hash, transaction ou adresse",
   "Size (KB)": "Taille (Ko)",
   "%s of %s Transactions": "%0 sur %1 Transactions",
-  "Spent by": "Dépensé par",
+  "Spent by": "Dépensée par",
   "Status": "Statut",
   "%s Transactions": [
     "%0 Transactions",
@@ -36,6 +43,6 @@
   "Transaction fees": "Frais de transaction",
   "Transaction: %s": "Transaction: %0",
   "Unconfirmed": "Non confirmée",
-  "Unspent": "Non dépensé",
-  "Weight (KWU)": "Poids (KWU)"
+  "Unspent": "Non dépensée",
+  "Weight (KWU)": "Taille (KWU)"
 }
