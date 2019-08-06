@@ -28,7 +28,7 @@ app.use(require('body-parser').urlencoded())
 app.use((req, res, next) => {
   // TODO: optimize /block-height/nnn (no need to render the whole app just to get the redirect)
 
-  let theme = req.query.theme || req.cookies.theme || 'dark'
+  let theme = req.query.theme || req.cookies.theme || 'light'
   if (!themes.includes(theme)) theme = 'light'
   if (req.query.theme && req.cookies.theme !== theme) res.cookie('theme', theme)
 
